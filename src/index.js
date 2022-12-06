@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import Pokemons from './Pages/Pokemons';
+import Pokemons from './pages/Pokemons';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(<Pokemons />);

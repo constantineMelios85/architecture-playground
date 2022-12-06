@@ -1,5 +1,5 @@
 import usePokemons from '../services/usePokemons';
-import PokemonColorModel from './PolemonColorModel';
+import PokemonColorModel from './PokemonColorModel';
 
 const PokemonsModel = (query = 1) => {
   const { pokemon, error } = usePokemons(query);
